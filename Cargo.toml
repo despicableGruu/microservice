@@ -1,19 +1,19 @@
 [package]
 name = "microservice"
 version = "0.1.0"
-authors = ["Sascha Grunert <mail@saschagrunert.de>"]
+authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["microservice", "tokio", "capnp", "capnproto", "rpc"]
-repository = "https://github.com/saschagrunert/microservice-rs"
-homepage = "https://github.com/saschagrunert/microservice-rs"
+repository = "https://github.com/despicableGruu/microservice-rs"
+homepage = "https://github.com/despicableGruu/microservice-rs"
 documentation = "https://docs.rs/microservice-rs"
 description = "A microservice template using Cap'n Proto"
 categories = ["network-programming"]
 
 [badges]
-travis-ci = { repository = "saschagrunert/microservice-rs", branch = "master" }
-appveyor = { repository = "saschagrunert/microservice-rs", branch = "master", service = "github" }
+travis-ci = { repository = "despicableGruu/microservice-rs", branch = "master" }
+appveyor = { repository = "despicableGruu/microservice-rs", branch = "master", service = "github" }
 
 [build-dependencies]
 capnpc = "0.8"
